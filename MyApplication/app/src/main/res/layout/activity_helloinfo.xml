@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_helloinfo">
+
+    <TextView
+        android:id="@+id/textView_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:text="欢迎使用"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人信息" />
+
+    <Button
+        android:id="@+id/button_startstudy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始学习" />
+
+    <Button
+        android:id="@+id/button_remedtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="积分购物" />
+
+    <Button
+        android:id="@+id/button_starttest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始测试" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/personalinfo" />
+</LinearLayout>

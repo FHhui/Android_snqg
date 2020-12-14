@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/personalinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".personinfo_activity">
+
+    <TextView
+        android:id="@+id/textView_helloinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="个人信息"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_accountinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="账号:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_integralinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="积分:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_integral"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_recordinfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="历史记录:"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+</LinearLayout>
